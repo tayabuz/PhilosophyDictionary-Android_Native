@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="iconSettings" format="integer"/>
+    <attr name="headerTextViewColor" format="color"/>
+    <attr name="definitionTextViewColor" format="color"/>
+    <attr name="iconFavourite" format="integer"/>
+</resources>

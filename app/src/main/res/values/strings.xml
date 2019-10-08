@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Словарь по философии</string>
+    <string name="search">Поиск</string>
+    <string name="no_data_available">Ничего не найдено</string>
+    <string name="drawer_menu_settings">Настройки</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_switch_dark_theme">Использовать темную тему</string>
+    <string name="favourite">Избранное</string>
+    <string name="title_clear_favourites">Очистить избранное</string>
+    <string name="summary_clear_favourites">Все элементы избранного будут удалены</string>
+    <string name="message_clear_favourites">Очистить избранное?</string>
+    <string name="confirm">Да</string>
+    <string name="cancel">Нет</string>
+    <string name="show_all">Показать все</string>
+</resources>

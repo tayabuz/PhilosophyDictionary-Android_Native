@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat
+            app:key="switch_dark_theme"
+            app:title="@string/settings_switch_dark_theme"/>
+    <Preference
+        app:key="clear_favourites"
+        app:title="@string/title_clear_favourites"
+        app:summary="@string/summary_clear_favourites"/>
+</PreferenceScreen>

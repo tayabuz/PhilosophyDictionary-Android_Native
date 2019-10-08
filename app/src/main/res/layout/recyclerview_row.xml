@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="term"
+            type="com.philosophyDictionary.Term"/>
+        <variable
+            name="viewModel"
+            type="com.philosophyDictionary.TermViewModel" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/rlRowView">
+        <TextView
+            android:id="@+id/tvDefinition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:isScrollContainer="false"
+            android:scrollHorizontally="false"
+            android:ellipsize="end"
+            android:textColor="?attr/headerTextViewColor"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/ivFavourite"
+            android:text="@{term.Definition}"/>
+        <TextView
+            android:id="@+id/tvExplanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:isScrollContainer="false"
+            android:scrollHorizontally="false"
+            android:ellipsize="end"
+            android:textColor="?attr/definitionTextViewColor"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/ivFavourite"
+            android:layout_below="@+id/tvDefinition"
+            android:text="@{term.Explanation}"/>
+        <ImageView
+            android:id="@+id/ivFavourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:longClickable="true"
+            android:src="?attr/iconFavourite"
+            android:visibility="@{viewModel.isFavourite(term) ? View.VISIBLE : View.GONE}" />
+    </RelativeLayout>
+</layout>

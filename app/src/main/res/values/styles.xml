@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Light application theme. -->
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="iconSettings">@drawable/ic_settings_dark_24dp</item>
+        <item name="headerTextViewColor">@color/headerTextViewColorLight</item>
+        <item name="definitionTextViewColor">@color/definitionTextViewColorLight</item>
+        <item name="iconFavourite">@drawable/ic_favourite_dark_24dp</item>
+    </style>
+    <!-- Night application theme. -->
+    <style name="AppTheme.Night" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="headerTextViewColor">@color/headerTextViewColorNight</item>
+        <item name="definitionTextViewColor">@color/definitionTextViewColorNight</item>
+        <item name="android:textColorSecondary">@color/definitionTextViewColorNight</item>
+       <item name="android:textColorPrimary">@color/textColorPrimaryNight</item>
+        <item name="android:windowBackground">@color/backgroundColorNight</item>
+        <item name="iconSettings">@drawable/ic_settings_light_24dp</item>
+        <item name="iconFavourite">@drawable/ic_favourite_light_24dp</item>
+    </style>
+    <!-- Alert Dialog light theme. -->
+    <style name="AlertDialogLight" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccentAlert</item>
+        <item name="android:textColorPrimary">@color/headerTextViewColorLight</item>
+        <item name="android:windowBackground">@color/backgroundColorAlertLight</item>
+        <item name="android:colorBackground">@color/backgroundColorAlertLight</item>
+    </style>
+    <!-- Alert Dialog night theme. -->
+    <style name="AlertDialogNight" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccentAlert</item>
+        <item name="android:windowBackground">@color/backgroundColorAlertNight</item>
+        <item name="android:colorBackground">@color/backgroundColorAlertNight</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/recycleViewFragment">
+
+    <fragment android:id="@+id/recycleViewFragment" android:name="com.philosophyDictionary.RecyclerViewFragment" android:label="@string/app_name" tools:layout="@layout/fragment_recycleview" />
+    <fragment android:id="@+id/touchRowFragment" android:name="com.philosophyDictionary.TouchRowFragment" tools:layout="@layout/fragment_touch_row"/>
+    <fragment android:id="@+id/settingsFragment" android:name="com.philosophyDictionary.SettingsFragment" android:label="@string/settings_title" />
+</navigation>

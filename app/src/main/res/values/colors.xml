@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Light Color-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="headerTextViewColorLight">#000000</color>
+    <color name="definitionTextViewColorLight">#5d5d5d</color>
+
+    <!--Night Color-->
+    <color name="headerTextViewColorNight">#FFFFFF</color>
+    <color name="definitionTextViewColorNight">#B3FFFFFF</color>
+    <color name="textColorPrimaryNight">#FFFFFF</color>
+    <color name="backgroundColorNight">#303030</color>
+
+    <!-- Alert dialog theme -->
+    <color name="colorAccentAlert">#008577</color>
+    <color name="backgroundColorAlertLight">#FFFFFF</color>
+    <color name="textColorPrimaryAlertLight">#000000</color>
+    <color name="backgroundColorAlertNight">#303030</color>
+</resources>
+
